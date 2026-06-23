@@ -63,6 +63,3 @@ if st.button("Detect Metabolic Syndrome"):
     elif prediction[0] == 0:
         st.badge("NO! - Metabolic Syndrome Not Detected", color="green")
 
-
-    else:
-        st.warning("Please enter the correct inputs!")
